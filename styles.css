@@ -1,0 +1,68 @@
+.biggerMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    border-color: black;
+    border-style: solid;
+    /* height: 550px; */
+    width: 600px;
+}
+
+.screenContainer {
+    display: flex;
+    justify-content: flex-end;
+    min-height: 60px;
+    align-items: center;
+    margin: 10px;
+    border-style: solid
+}
+.screen {
+    margin-right: 10px;
+}
+
+.clear-and-delete{
+    display: flex;
+    justify-content: space-around;
+
+}
+.button-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.button-container :nth-child(1) {order: 1;}
+.button-container :nth-child(2) {order: 2;}
+.button-container :nth-child(3) {order: 3;}
+.button-container :nth-child(4) {order: 4;}
+.button-container :nth-child(5) {order: 5;}
+.button-container :nth-child(6) {order: 6;}
+.button-container :nth-child(7) {order: 7;}
+.button-container :nth-child(8) {order: 8;}
+.button-container :nth-child(9) {order: 9;}
+.button-container :nth-child(10) {order: 10;}
+.button-container :nth-child(11) {order: 11;}
+.button-container :nth-child(12) {order: 12;}
+.button-container :nth-child(13) {order: 13;}
+.button-container :nth-child(14) {order: 14;}
+.button-container :nth-child(15) {order: 15;}
+.button-container :nth-child(16) {order: 16;}
+
+
+.numbered button, .operator button, .equals button{
+    height: 125px;
+    width: 150px;
+
+} 
+
+ button {
+    width: 150px;
+    height: 50px;
+}
